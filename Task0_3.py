@@ -5,4 +5,4 @@ def hello(name):
 name = 'tshepo'
 print(f' {hello(name)}! ' )
 
-hello("tshepo")
+hello(name)
