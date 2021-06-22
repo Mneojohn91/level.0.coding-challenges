@@ -14,5 +14,4 @@ def convert():
     else:
         print(hours, 'hour, ' , minutes,'minute')
 
-
 convert()
