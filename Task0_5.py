@@ -1,13 +1,11 @@
-def area_of():
+def area_of(side1,side2,side3):
 
 
-    formula = (s_p * (s_p - a) * (s_p - b) * (s_p - c)) ** (1 / 2)
-    print ("the area is: ", formula)
-a = 20
-b = 20
-c = 24
+    formula = (s_p * (s_p - side1) * (s_p - side2) * (s_p - side3)) ** (1 / 2)
+    print ( formula)
+
 # s_p is the semi-perimeter
-s_p = (a + b + c) / 2
+s_p = (20 + 20 + 24) / 2
 
 print()
-area_of()
+area_of(20,20,24)
