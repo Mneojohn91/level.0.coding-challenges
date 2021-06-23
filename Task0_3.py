@@ -1,9 +1,8 @@
 def hello(name):
-    name = ''
-    print( 'Hello,' + name)
+    return 'Hello,' + name
 
 
-
-
+name = 'tshepo'
+print(f' {hello(name)}! ' )
 
 hello('tshepo')
