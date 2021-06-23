@@ -1,7 +1,7 @@
-num = 230
-def convert():
-    minutes = (num-(60*(num//60)))
-    hours =num//60
+
+def convert(number):
+    minutes = (number-(60*(number//60)))
+    hours =number//60
     if minutes> 1 and hours>1:
         print(hours, 'hours,', minutes, 'minutes')
 
@@ -14,4 +14,4 @@ def convert():
     else:
         print(hours, 'hour, ' , minutes,'minute')
 
-convert()
+convert(230)

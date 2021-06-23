@@ -7,8 +7,6 @@ def find_vowel(word):
 
     print("vowels: ", ','.join(set(check)))
 
-
-
 vowels = 'aeiou'
 
 find_vowel('recognized')
