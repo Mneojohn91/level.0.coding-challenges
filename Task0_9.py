@@ -5,7 +5,7 @@ def find_vowel(word):
 
     check = [each for each in word if each in vowels]
 
-    print("vowels: ", ','.join(set(check)))
+    print( ','.join(set(check)))
 
 vowels = 'aeiou'
 
