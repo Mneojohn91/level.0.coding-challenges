@@ -1,9 +1,6 @@
 def hello(name):
-    greet = "Hello,"+name+'!'
-
-
     
-    return greet
+    return f'Hello,'+name+'!'
     
 
 print(hello('tshepo'))
