@@ -4,7 +4,6 @@ def convert(number):
     hours =number//60
     if minutes> 1 and hours>1:
         print(hours, 'hours,', minutes, 'minutes')
-
     elif minutes ==1 and hours > 1:
         print(hours,'hours,', minutes, "minute")
     elif hours == 1 and minutes > 1:
@@ -14,4 +13,4 @@ def convert(number):
     else:
         print(hours, 'hour, ' , minutes,'minute')
 
-convert(230)
+convert(0)
