@@ -13,4 +13,4 @@ def convert(number):
     else:
         print(hours, 'hour, ' , minutes,'minute')
 
-convert(0)
+convert(173)
