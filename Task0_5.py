@@ -1,4 +1,4 @@
-def area_of(side1, side2, side3):
+def triangle_area(side1, side2, side3):
     semi_perimeter = (20 + 20 + 24) / 2
     formula = (
         semi_perimeter
@@ -9,4 +9,4 @@ def area_of(side1, side2, side3):
     print(formula)
 
 
-area_of(20, 20, 24)
+triangle_area(20, 20, 24)

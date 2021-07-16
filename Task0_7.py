@@ -1,9 +1,9 @@
-def tempature_Fahrenheit(degree_celsius):
+def fahrenheit_temperature(degree_celsius):
     temperature = (degree_celsius * (9 / 5)) + 32
     print(temperature, "degrees fahrenheit")
 
 
-tempature_Fahrenheit(12)
+fahrenheit_temperature(12)
 
 
 def tempature_celsius(degree_fahr):
