@@ -1,16 +1,24 @@
 
 def convert(number):
-    minutes = (number-(60*(number//60)))
-    hours =number//60
-    if minutes> 1 and hours>1:
-        print(hours, 'hours,', minutes, 'minutes')
-    elif minutes ==1 and hours > 1:
-        print(hours,'hours,', minutes, "minute")
+    minutes = number - (60 * (number // 60))
+    hours = number // 60
+    if minutes > 1 and hours > 1:
+        print(hours, "hours,", minutes, "minutes")
+    elif minutes == 1 and hours > 1:
+        print(hours, "hours,", minutes, "minute")
     elif hours == 1 and minutes > 1:
-        print(hours,'hour,', minutes, 'minutes')
-    elif hours <= 1 and minutes >1:
-        print(hours,'hour,', minutes, 'minutes')
+        print(hours, "hour,", minutes, "minutes")
+    elif hours <= 1 and minutes > 1:
+        print(hours, "hour,", minutes, "minutes")
     else:
-        print(hours, 'hour, ' , minutes,'minute')
+        print(hours, "hour, ", minutes, "minute")
 
-convert(173)
+
+def main():
+
+    convert(173)
+
+
+if __name__ == "__main__":
+    main()
+
