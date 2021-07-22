@@ -1,7 +1,18 @@
 def highest_number(*number):
-    highest_numbers = list(number)
-    highest_numbers.sort()
-    print(highest_numbers[-1])
+
+    list1 = list(number)
+    print(list1)
+    highest = number[0]
+    for i in list1:
+        if i > highest:
+            highest = i
+    return highest
 
 
-highest_number(1, 3, 2)
+def main():
+
+    print(highest_number(1, 22, 34, 7))
+
+
+if __name__ == "__main__":
+    main()
