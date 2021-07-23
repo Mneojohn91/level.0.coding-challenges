@@ -3,7 +3,6 @@ def hello(name):
 
 
 def main():
-
     print(hello("tshepo"))
 
 

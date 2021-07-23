@@ -1,4 +1,4 @@
-def convert(number):
+def convert_to_time(number):
     minutes = number - (60 * (number // 60))
     hours = number // 60
     if minutes > 1 and hours > 1:
@@ -15,7 +15,7 @@ def convert(number):
 
 def main():
 
-    convert(173)
+    convert_to_time(173)
 
 
 if __name__ == "__main__":
