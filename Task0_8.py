@@ -1,4 +1,3 @@
-
 def convert(number):
     minutes = number - (60 * (number // 60))
     hours = number // 60
@@ -21,4 +20,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
