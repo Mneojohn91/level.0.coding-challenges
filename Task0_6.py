@@ -8,7 +8,6 @@ def highest_number(*number):
 
 
 def main():
-
     print(highest_number(1, 22, 34, 7))
 
 
