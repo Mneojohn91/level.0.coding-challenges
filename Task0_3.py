@@ -1,9 +1,10 @@
 def hello(name):
-    return f"Hello," + name + "!"
+    greeting = f"Hello,  {name}!"
+    return greeting
 
 
 def main():
-    print(hello("tshepo"))
+    print(hello("Tshepo"))
 
 
 if __name__ == "__main__":
