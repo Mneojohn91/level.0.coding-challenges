@@ -1,7 +1,11 @@
 def common_letter(word1, word2):
     word1= word1.casefold()
     word2= word2.casefold()
-    print("Common letters: ", ", ".join(set(word1) & set(word2)))
+    common_word =""
+    for i in word1:
+        if i in word2:
+            common_word+=i
+    print("Common letters: ",", ".join(common_word) ,end=" ")
 
 
 def main():
