@@ -1,4 +1,4 @@
-def highest_number(*number):
+def maximum(*number):
     list1 = list(number)
     highest = number[0]
     for i in list1:
@@ -8,7 +8,7 @@ def highest_number(*number):
 
 
 def main():
-    print(highest_number(1, 22, 34, 7))
+    print(maximum(1, 22, 34, 7))
 
 
 if __name__ == "__main__":
