@@ -7,8 +7,8 @@ def convert_to_time(number):
         str_hours = "hours"
     if minutes > 1 or minutes == 0:
         str_minutes = "minutes"
-
     number = f"{hours} {str_hours},{minutes} {str_minutes}"
+
     print(number)
 
 

@@ -9,10 +9,5 @@ def triangle_area(side1, side2, side3):
     return int(formula)
 
 
-def main():
-
-    print(triangle_area(3, 4, 5))
-
-
 if __name__ == "__main__":
-    main()
+    print(triangle_area(3, 4, 5))

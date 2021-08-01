@@ -5,10 +5,5 @@ def find_vowel(word):
     print("Vowels:", ", ".join(set(check)))
 
 
-def main():
-
-    find_vowel("Umuzi")
-
-
 if __name__ == "__main__":
-    main()
+    find_vowel("Umuzi")

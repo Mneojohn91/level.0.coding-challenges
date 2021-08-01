@@ -7,9 +7,5 @@ def maximum(*number):
     return highest
 
 
-def main():
-    print(maximum(1, 22, 34, 7))
-
-
 if __name__ == "__main__":
-    main()
+    print(maximum(1, 22, 34, 7))

@@ -8,5 +8,6 @@ def common_letter(word1, word2):
     print("Common letters: ", ", ".join(common_word), end=" ")
 
 
+
 if __name__ == "__main__":
     common_letter("Eckard", "Berry")
