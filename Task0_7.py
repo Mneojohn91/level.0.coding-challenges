@@ -8,10 +8,6 @@ def convert_to_celsius(degree_fahr):
     return tempature
 
 
-def main():
+if __name__ == "__main__":
     print(convert_to_fahrenheit(15))
     print(convert_to_celsius(95))
-
-
-if __name__ == "__main__":
-    main()
